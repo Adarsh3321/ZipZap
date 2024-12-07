@@ -129,16 +129,14 @@ function App() {
           <div className="bg-dark-lighter p-4 sm:p-8 rounded-xl border border-primary/10">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-primary">Files Goes Here</h2>
             <FileUpload onFileSelect={handleFileSelect} disabled={uploading} />
-          </div>
-
-          <div className="bg-dark-lighter p-4 sm:p-8 rounded-xl border border-primary/10">
+          
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-primary">Message</h2>
             <div className="space-y-4">
               <TextEditor value={text} onChange={setText} />
               <Button
                 onClick={handleTextShare}
                 disabled={!text.trim() || uploading}
-                tooltip="Share text content with others"
+                tooltip="Share Message"
               >
                 {uploading ? 'Sharing...' : 'Share Text'}
               </Button>
