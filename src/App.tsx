@@ -119,7 +119,7 @@ function App() {
         <div className="flex items-center justify-center mb-12">
           <div className="flex items-center space-x-4">
             <Zap className="w-8 sm:w-10 h-8 sm:h-10 text-primary animate-glow" />
-            <h1 className="text-3xl sm:text-4xl font-bold text-primary">ZipZap</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold text-primary">ZipZaap</h1>
           </div>
         </div>
 
