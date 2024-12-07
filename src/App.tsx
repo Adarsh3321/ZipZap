@@ -130,7 +130,14 @@ function App() {
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-primary">Files Goes Here</h2>
             <FileUpload onFileSelect={handleFileSelect} disabled={uploading} />
             <br>
+
+
             </br>
+            <br>
+
+
+            </br>
+            
           
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-primary">Message</h2>
             <div className="space-y-4">
