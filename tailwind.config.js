@@ -9,8 +9,8 @@ export default {
           dark: '#733610',
         },
         dark: {
-          DEFAULT: '#0a0a0a',
-          lighter: '#1a1a1a',
+          DEFAULT: '#0b1536',
+          lighter: '#0e1a40',
         }
       },
       fontFamily: {
@@ -22,8 +22,8 @@ export default {
           '50%': { transform: 'scale(1.05)' },
         },
         glow: {
-          '0%, 100%': { boxShadow: '0 0 5px rgba(0, 162, 255, 0.5)' },
-          '50%': { boxShadow: '0 0 20px rgba(0, 162, 255, 0.8)' },
+          '0%, 100%': { boxShadow: '0 0 5px rgba(214, 117, 56, 0.5)' },
+          '50%': { boxShadow: '0 0 20px rgba(214, 117, 56, 0.8)' },
         }
       },
       animation: {
