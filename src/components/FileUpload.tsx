@@ -32,7 +32,7 @@ export function FileUpload({ onFileSelect, disabled }: FileUploadProps) {
         <p className="text-center text-lg">
           {disabled ? 'Upload in progress...' :
             isDragActive ? 'Drop the files here...' :
-            'Drag & drop files here, or click to select files'}
+            'Drop files here...'}
         </p>
       </div>
     </div>
