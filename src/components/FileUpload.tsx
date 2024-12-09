@@ -32,7 +32,7 @@ export function FileUpload({ onFileSelect, disabled }: FileUploadProps) {
         <p className="text-center text-lg">
           {disabled ? 'Upload in progress...' :
             isDragActive ? 'Drop the files here...' :
-            'Drop files here...'}
+            'Drop files here...(< 50 MB )'}
         </p>
       </div>
     </div>
