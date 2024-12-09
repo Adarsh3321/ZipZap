@@ -36,8 +36,8 @@ export function ReceivePanel() {
                     font-family: monospace;
                     padding: 1rem;
                     margin: 0;
-                    background: #0a0a0a;
-                    color: #00a2ff;
+                    background: #0b1536;
+                    color: #d67538;
                     min-height: 100vh;
                     box-sizing: border-box;
                   }
@@ -55,7 +55,7 @@ export function ReceivePanel() {
                     overflow-x: auto;
                   }
                   button {
-                    background: #00a2ff;
+                    background: #d67538;
                     color: #0a0a0a;
                     border: none;
                     padding: 0.5rem 1rem;
