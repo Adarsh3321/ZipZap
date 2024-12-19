@@ -7,7 +7,7 @@ dotenv.config();
 const SUPABASE_URL = 'https://hxdbvzzvrazummsadgsu.supabase.co';
 const SUPABASE_ANON_KEY = process.env.api_key as string;
 
-console.log(apiKey);
+
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
