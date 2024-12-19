@@ -7,6 +7,11 @@ dotenv.config();
 const SUPABASE_URL = 'https://hxdbvzzvrazummsadgsu.supabase.co';
 const SUPABASE_ANON_KEY = process.env.api_key as string;
 
+if (SUPABASE_ANON_KEY) {
+  console.log('API Key is:', SUPABASE_ANON_KEY);
+} else {
+  console.error('API_KEY is missing from the environment variables');
+}
  
 
 
