@@ -1,16 +1,13 @@
 import { createClient } from '@supabase/supabase-js';
-import * as dotenv from 'dotenv';
 
 
-dotenv.config();
+
+
 const SUPABASE_URL = 'https://hxdbvzzvrazummsadgsu.supabase.co';
-const SUPABASE_ANON_KEY = process.env.api_key;
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4ZGJ2enp2cmF6dW1tc2FkZ3N1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzM1ODY1MDMsImV4cCI6MjA0OTE2MjUwM30.zOO7sh2qeeTZeRjIPpx9dd5rmBh7DQyFLh8v9zc6qNU';
 
-if (SUPABASE_ANON_KEY) {
-  console.log('API Key is:', SUPABASE_ANON_KEY);
-} else {
-  console.error('API_KEY is missing from the environment variables');
-}
+
+
  
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
